@@ -1,0 +1,22 @@
+a:link {color: black;}      /* unvisited link */
+a:visited {color: black;}   /* visited link */
+a:hover {color: black;}     /* mouse over link */
+a:active {color: black;}    /* selected link */
+
+#icon-parent {
+    text-align:center;
+}
+
+#home {
+    min-height: 100%;
+    background-image: url(/img/keebs.jpg);
+}
+
+.section {
+    background-size: cover;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
