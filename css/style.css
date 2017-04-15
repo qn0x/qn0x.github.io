@@ -12,5 +12,21 @@ a:active {color: black;}    /* selected link */
 }
 
 #home {
-    background-image: url(/img/keebs.jpg);
+    background-color: black;
+}
+
+#about {
+    background-color: black;
+}
+
+#introduction {
+    text-align: center;
+}
+
+.fa {
+    color: white;
+}
+
+div {
+    color: white;
 }
