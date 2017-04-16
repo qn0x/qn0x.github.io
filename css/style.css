@@ -1,17 +1,19 @@
 a:link { /* unvisited link */
-    color: black;
+    font-style: italic;
+    color: white;
 }
 
 a:visited { /* visited link */
-    color: black;
+    font-style: italic;
+    color: white;
 }
 
 a:hover { /* mouse over link */
-    color: black;
+    color: lightgrey;
 }
 
 a:active { /* selected link */
-    color: black;
+    color: lightgrey;
 }
 
 .icon-parent {
