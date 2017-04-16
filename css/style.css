@@ -34,6 +34,10 @@ a:active { /* selected link */
     text-align: center;
 }
 
+#about {
+    text-align: center;
+}
+
 .fa {
     color: white;
 }
