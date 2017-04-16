@@ -26,6 +26,7 @@ a:active { /* selected link */
 
 #home {
     background-color: black;
+    text-align: center;
 }
 
 #about {
@@ -39,7 +40,7 @@ a:active { /* selected link */
 }
 
 #introduction {
-    text-align: center;
+    text-align: justify;
 }
 
 #about {

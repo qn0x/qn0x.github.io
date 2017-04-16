@@ -1,12 +1,23 @@
 $(document).ready(function () {
     $('#fullpage').fullpage({
         navigation: true,
-        navigationPosition: 'right',
+        navigationPosition: 'left',
         navigationTooltips: ['Home', 'About me', 'Online CV'],
-        continuousVertical: true,
+        continuousVertical: false,
         keyboardScrolling: true,
 
+        controlArrows: false,
+
+        scrollHorizontally: true,
+
         anchors: ['Home', 'About me', 'Online CV'],
-        menu: '#myMenu'
+        menu: '#myMenu',
+
+        slidesNavigation: true,
+        slidesNavPosition: 'bottom'
     });
+
+    $('.carousel.carousel-slider').carousel({fullWidth: true});
+    $('.carousel').carousel();
+
 });
