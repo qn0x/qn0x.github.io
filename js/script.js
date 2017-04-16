@@ -5,19 +5,16 @@ $(document).ready(function () {
         navigationTooltips: ['Home', 'About me', 'Online CV'],
         continuousVertical: false,
         keyboardScrolling: true,
-
         controlArrows: false,
-
         scrollHorizontally: true,
 
         anchors: ['Home', 'About me', 'Online CV'],
         menu: '#myMenu',
 
         slidesNavigation: true,
-        slidesNavPosition: 'bottom'
-    });
+        slidesNavPosition: 'bottom',
 
-    $('.carousel.carousel-slider').carousel({fullWidth: true});
-    $('.carousel').carousel();
+        scrollOverflow: true
+    });
 
 });
