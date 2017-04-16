@@ -8,12 +8,12 @@
 
     <link rel="icon" href="favicon.ico">
 
-    <link rel="stylesheet" type="text/css" href="css/jquery.fullpage.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.fullpage.min.css"/>
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
     <link rel="stylesheet" type="text/css" href="css/materialize.min.css">
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-    
-    
+
+
     <!--Import Google Icon Font-->
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
@@ -23,14 +23,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 
-    
+
 <body>
+
+
 <div id="fullpage">
-	<div class="section" id="home">
-        <div class="container">
-            <div class="row" id="introduction">
+    <div class="section fp-section" id="home" data-menuanchor="firstPage">
+        <div class="container" id="introduction">
+            <div class="row">
                 <div class="col s12">
-                    <h1>Hello world.</h1>
+                    <div class="show-on-small hide-on-med-and-up">
+                        <h3>Hello world.</h3>
+                    </div>
+                    <div class="show-on-medium-and-up hide-on-small-and-down">
+                        <h1>Hello world.</h1>
+                    </div>
                     <div class="container valign-wrapper">
                         <div class="row">
                             <div class="col l4 m6 s6 offset-l4 offset-m3 offset-s3">
@@ -38,54 +45,86 @@
                             </div>
                         </div>
                     </div>
-                    <h3>My name is Janine.</h3>
+                    <div class="show-on-small hide-on-med-and-up">
+                        <h5>My name is Janine.</h5>
+                    </div>
+                    <div class="show-on-medium-and-up hide-on-small-and-down">
+                        <h3>My name is Janine.</h3>
+                    </div>
+
                     <p class="flow-text">I am a sophmore Computer Science student in Germany and I love to learn new
                         things.</p>
                 </div>
             </div>
-            
+
             <div class="row">
                 <div class="col l3 m2 hide-on-small-and-down"></div>
                 <div class="col l6 m8 s12">
                     <div class="row">
                         <div class="col s2 icon-parent">
-                            <a href="https://twitter.com/dschiini" target="_blank"><i class="fa fa-twitter fa-3x"
+                            <a href="https://twitter.com/dschiini" target="_blank"><i class="fa fa-twitter fa-2x"
                                                                                       id="icon" aria-hidden="true"></i></a>
                         </div>
                         <div class="col s2 icon-parent">
-                            <a href="https://github.com/qn0x" target="_blank"><i class="fa fa-github fa-3x"
+                            <a href="https://github.com/qn0x" target="_blank"><i class="fa fa-github fa-2x"
                                                                                  aria-hidden="true"></i></a>
                         </div>
                         <div class="col s2 icon-parent">
-                            <a href="https://www.reddit.com/u/qn0x/" target="_blank"><i class="fa fa-reddit-alien fa-3x"
+                            <a href="https://www.reddit.com/u/qn0x/" target="_blank"><i class="fa fa-reddit-alien fa-2x"
                                                                                         aria-hidden="true"></i></a>
                         </div>
                         <div class="col s2 icon-parent">
-                            <a href="https://keybase.io/qn0x" target="_blank"><i class="fa fa-key fa-3x"
+                            <a href="https://keybase.io/qn0x" target="_blank"><i class="fa fa-key fa-2x"
                                                                                  aria-hidden="true"></i></a>
                         </div>
                         <div class="col s2 icon-parent">
-                            <a href="https://www.last.fm/user/flakii" target="_blank"><i class="fa fa-lastfm fa-3x"
+                            <a href="https://www.last.fm/user/flakii" target="_blank"><i class="fa fa-lastfm fa-2x"
                                                                                          aria-hidden="true"></i></a>
                         </div>
                         <div class="col s2 icon-parent">
-                            <a href="mailto:qn0x@yandex.com" target="_top"><i class="fa fa-envelope fa-3x"
+                            <a href="mailto:qn0x@yandex.com" target="_top"><i class="fa fa-envelope fa-2x"
                                                                               aria-hidden="true"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="col l3 m2 hide-on-small-and-down"></div>
             </div>
+
+            <div class="row">
+                <div class="col s12 show-on-small hide-on-med-and-up">
+                    <p class="flow-text" id="snack-small">Get to know me a little more by scrolling down or check out my
+                        online CV at the
+                        end of the page :)</p>
+                </div>
+                <div class="col s12 show-on-medium-and-up hide-on-small-and-down">
+                    <p class="flow-text" id="snack-med-and-up">Get to know me a little more by scrolling down or check
+                        out my online CV at the
+                        end of the page :)</p>
+                </div>
+            </div>
         </div>
     </div>
 
 
-    <div class="section" id="about">
+    <div class="section fp-section" id="about" data-menuanchor="secondPage">
         <div class="container">
             <div class="row">
                 <div class="col s4"></div>
-                <div class="col s4">About me</div>
+                <div class="col s4">
+                    <p class="flow-text">About me</p>
+                </div>
                 <div class="col s4"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="section fp-section" id="cv">
+        <div class="container">
+            <div class="row">
+                <div class="s12">
+                    <p class="flow-text">Online CV: Still on it.</p>
+                </div>
             </div>
         </div>
     </div>
@@ -98,7 +137,8 @@
 <script type="text/javascript" src="js/script.js"></script>
 <script type="text/javascript" src="js/jquery.fullpage.min.js"></script>
 <script type="text/javascript" src="js/materialize.min.js"></script>
-    
+
+
 </body>
 
 </html>

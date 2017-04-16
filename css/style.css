@@ -28,6 +28,12 @@ a:active { /* selected link */
 
 #about {
     background-color: black;
+    text-align: center;
+}
+
+#cv {
+    background-color: black;
+    text-align: center;
 }
 
 #introduction {
@@ -48,4 +54,12 @@ a:active { /* selected link */
 
 div {
     color: white;
+}
+
+#snack-small {
+    font-size: smaller;
+}
+
+#snack-med-and-up {
+    font-size: medium;
 }
