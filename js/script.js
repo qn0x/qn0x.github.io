@@ -6,7 +6,7 @@ $(document).ready(function () {
         continuousVertical: true,
         keyboardScrolling: true,
 
-        anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'lastPage'],
+        anchors: ['Home', 'About me', 'Online CV'],
         menu: '#myMenu'
     });
 });
