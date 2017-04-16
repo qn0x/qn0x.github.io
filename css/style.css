@@ -1,10 +1,21 @@
-a:link {color: black;}      /* unvisited link */
-a:visited {color: black;}   /* visited link */
-a:hover {color: black;}     /* mouse over link */
-a:active {color: black;}    /* selected link */
+a:link { /* unvisited link */
+    color: black;
+}
 
-#icon-parent {
-    text-align:center;
+a:visited { /* visited link */
+    color: black;
+}
+
+a:hover { /* mouse over link */
+    color: black;
+}
+
+a:active { /* selected link */
+    color: black;
+}
+
+.icon-parent {
+    text-align: center;
 }
 
 .section {
@@ -25,6 +36,10 @@ a:active {color: black;}    /* selected link */
 
 .fa {
     color: white;
+}
+
+.fa:hover {
+    color: lightgrey;
 }
 
 div {
