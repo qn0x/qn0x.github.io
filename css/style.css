@@ -48,3 +48,9 @@ div {
 #snack-med-and-up {
     font-size: medium;
 }
+
+#about {
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: large;
+}
