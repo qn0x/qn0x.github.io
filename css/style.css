@@ -1,19 +1,19 @@
 a:link { /* unvisited link */
     font-style: italic;
-    color: white;
+    color: black;
 }
 
 a:visited { /* visited link */
     font-style: italic;
-    color: white;
+    color: black;
 }
 
 a:hover { /* mouse over link */
-    color: lightgrey;
+    color: black;
 }
 
 a:active { /* selected link */
-    color: lightgrey;
+    color: black;
 }
 
 .icon-parent {
@@ -25,38 +25,20 @@ a:active { /* selected link */
 }
 
 #home {
-    background-color: black;
-    text-align: center;
-}
-
-#about {
-    background-color: black;
-    text-align: center;
-}
-
-#cv {
-    background-color: black;
-    text-align: center;
-}
-
-#introduction {
-    text-align: justify;
-}
-
-#about {
+    background-color: white;
     text-align: center;
 }
 
 .fa {
-    color: white;
+    color: black;
 }
 
 .fa:hover {
-    color: lightgrey
+    color: black
 }
 
 div {
-    color: white;
+    color: black;
 }
 
 #snack-small {

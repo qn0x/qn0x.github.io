@@ -1,8 +1,6 @@
 $(document).ready(function () {
     $('#fullpage').fullpage({
-        navigation: true,
-        navigationPosition: 'left',
-        navigationTooltips: ['Home', 'About me', 'Online CV'],
+        navigation: false,
         continuousVertical: false,
         keyboardScrolling: true,
         controlArrows: false,
