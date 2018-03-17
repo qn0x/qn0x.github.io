@@ -8,7 +8,7 @@ $(document).ready(function () {
         anchors: ['Homepage', 'About me', 'Online CV'],
         menu: '#myMenu',
 
-        slidesNavigation: true,
+        slidesNavigation: false,
         slidesNavPosition: 'bottom',
 
         verticalCentered: true,
